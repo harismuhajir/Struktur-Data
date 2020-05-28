@@ -29,6 +29,7 @@ def OrderedSearch(listData,key):
                     index.append(j)
                 else:
                     break
+                count += 1
             found = True
         i += 1
         count += 1
